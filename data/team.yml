@@ -1,0 +1,198 @@
+# ---------------------------------------------------------------------------
+# Team members (rendered by team.Rmd, in this order)
+#   photo   : key from data/images.csv (use placeholder_person if no photo yet)
+#   bio     : Markdown allowed. Bios here are short summaries -- paste the
+#             full biographies in when convenient.
+#   links   : optional list of {label, url}
+# ---------------------------------------------------------------------------
+members:
+  - name: "Petya Apostolova"
+    title: "Prof. Dr."
+    role: "Principal Investigator"
+    photo: team_apostolova
+    photo_position: "center 20%"
+    bio: >
+      Petya is an Assistant Professor of Experimental Hematology at the University Hospital Basel. 
+      She studied Medicine in Freiburg, Germany, where she also completed her clinical training. 
+      In her postdoctoral fellowship at the Max-Planck Institute of Immunobiology and Epigenetics and the 
+      Johns Hopkins School of Medicine (USA), she studied how metabolism governs the function and survival 
+      of immune and leukemia cells. Clinically, Petya consults patients with hematological malignancies, in 
+      particular hematopoietic stem cell transplant recipients. In her research work, she is fascinated by 
+      cellular metabolic plasticity and its consequences for cell fate.
+    links: [{label: "Google Scholar", url: "https://scholar.google.com/citations?user=eLoa9dIAAAAJ&hl=en"}, 
+      {label: "LinkedIn", url: "https://www.linkedin.com/in/petya-apostolova-6abab51b2/"}]
+
+  - name: "Massimo Andreis"
+    role: "PhD Student"
+    photo: team_andreis
+    bio: >
+      Massimo studied Cellular and Molecular Biotechnology at the University of Trento, Italy, where he 
+      discovered his passion for immunology and metabolic pathways. After spending four years near his 
+      beloved mountains, he moved overseas for his master’s thesis, where he investigated the role of cysteine 
+      and glutamine in cytotoxic T lymphocytes - and became a big Baltimore Ravens fan (even if he’s still 
+      figuring out NFL’s rules).
+
+      To further broaden his knowledge in a more translational context, he joined our lab in Basel as a 
+      PhD student. His research focuses on understanding how AML cell metabolism contributes to AML immune 
+      escape following allogeneic transplantation by multiomics technologies.
+
+      When he’s not in the lab, Massimo enjoys spending time outdoors: running, hiking, playing football 
+      and recovering with a good pizza afterwards!
+
+  - name: "Noa Chemsi Bentires-Alj"
+    role: "Master Student"
+    photo: placeholder_person # team_chemsi
+    bio: >
+      Noa Chemsi is a Master’s student in Pharmaceutical Sciences at the University of Geneva, where he also 
+      completed his Bachelor’s degree. As part of the final year of his Master’s program, he is undertaking 
+      a six-month research internship at the Apostolova Lab.
+
+      Under the supervision of PhD student Tatjana Gremelspracher, his research focuses on understanding 
+      the molecular signaling pathways linking FLT3-ITD mutations to increased phosphatidic acid levels in 
+      acute myeloid leukemia (AML).
+    links: [{label: "LinkedIn", url: "www.linkedin.com/in/noa-chemsi-bentires-alj-3359933a1"}]   
+
+  - name: "Nikola Graf"
+    role: "Master Student Medicine"
+    photo: placeholder_person # team_graf
+    bio: >
+      Biography coming soon. 
+
+
+  - name: "Tatjana Gremelspacher"
+    role: "PhD Student"
+    photo: team_gremelspacher
+    bio: >
+      Tatjana began her scientific journey studying Biology at the University of Freiburg, where she completed 
+      her bachelor's thesis in virology. She continued working in the same lab as a student assistant while 
+      pursuing her master’s degree in immunobiology at the University of Freiburg. In January 2024, she joined 
+      the BCIM lab in Basel for her master’s thesis, just as the lab was launching. Her project focused on lipid 
+      metabolism and FLT3-ITD signaling in acute myeloid leukemia (AML), during which she identified a lipid of 
+      interest that is deregulated in the context of FLT3-ITD signaling. After completing her thesis, she spent 
+      some months at Johns Hopkins University in Baltimore in the lab of Erika Pearce, where she focused on T cell 
+      metabolism and amino acid dynamics.
+
+      Despite thoroughly enjoying her time in the U.S. (and developing a minor obsession with Reese’s), 
+      Tatjana returned to Basel to begin her PhD, where she is continuing her work on lipid signaling in AML. 
+      When she’s not in the lab, you’ll likely find her at the gym, or spending time with her family and friends.
+    links: [{label: "LinkedIn", url: "www.linkedin.com/in/tatjana-gremelspacher-0421862b7"}, 
+      {label: "ORCID", url: "https://orcid.org/0009-0007-4071-1367"}]
+
+  - name: "Hui Hao-Shen"
+    role: "Lab Technician"
+    photo: placeholder_person
+    bio: >
+      I studied medicine in China and have been working for many years as a technician in the Experimental 
+      Hematology group within the Department of Biomedicine. I joined the lab in 2024. I am very pleased to 
+      have the opportunity to work in the field of translational medicine research. In my spare time, I truly 
+      enjoy the magnificent Alps, the charming lakes, and the tranquil natural beauty of Switzerland.
+
+  - name: "Jerneja Koren"
+    role: "PhD Student"
+    photo: team_koren
+    photo_position: "center 20%"
+    bio: >
+      Jerneja studied Immunology and Pharmacology at the University of Aberdeen in the far northeast of 
+      Scotland. For her master’s research project, she moved to the Biozentrum in Basel, where she investigated 
+      the role of coronin 2 and 3 in mammalian cells. Captivated by both the science and the city, she decided 
+      to return to Switzerland (and Basel) and pursue her PhD in the Apostolova lab. Motivated by her passion 
+      for immunology, Jerneja now studies how metabolic rewiring in AML cells shapes the bone marrow environment 
+      and influences surrounding non-leukemic cells, often with the help of metabolomics. When she is not busy 
+      trying to untangle LC-MS data, you will likely find her running, swimming in the Rhine, or baking the 
+      perfect sourdough loaf.
+    links: [{label: "LinkedIn", url: "https://www.linkedin.com/in/jerneja-koren/"}]
+
+  - name: "Diana Nyaburi"
+    role: "PhD Student"
+    photo: placeholder_person #team_nyaburi
+    bio: >
+      Biography coming soon. 
+
+  - name: "Anthony Sonrel"
+    title: "Dr."
+    role: "Bioinformatician"
+    photo: team_sonrel
+    photo_position: "center 30%"
+    bio: >
+      Anthony joined the BCIM Lab in 2025 as a Bioinformatician. He studied Biology and Bioinformatics at 
+      the University of Lausanne and completed a PhD in Statistical Genetics at the University of Zurich in 
+      the Robinson Lab. He has worked on diverse analysis projects in both academia and the pharmaceutical 
+      industry, ranging from studying obesity through population genetics to developing algorithms for 
+      single-cell analysis. 
+
+      At the BCIM Lab, Anthony oversees the generation, analysis, and interpretation of omics data to better 
+      understand AML mechanisms. Among his projects, he focuses on integrating multi-omics data and 
+      translating statistical signals into meaningful biological findings. He brings his interest for 
+      AI, intuitive UI design, and reproducibility into the analysis and code that he develops for the lab.
+    links: [{label: "LinkedIn", url: "https://www.linkedin.com/in/anthony-sonrel-612505114/"}, 
+      {label: "Google Scholar", url: "https://scholar.google.com/citations?user=okLkFT0AAAAJ"}]   # e.g. - {label: "LinkedIn", url: "https://www.linkedin.com/in/..."}
+
+  - name: "Felix Theiss"
+    role: "PhD Student"
+    photo: team_theiss
+    photo_position: "center 60%"
+    bio: >
+      Felix earned his Bachelor's degree in Biology and Master's degree in Stem Cell Biology at Ruhr 
+      University Bochum, Germany, between 2018 and 2024. During his ten-month Master's thesis in the 
+      Lymphoma Laboratory of Prof. Christian Reinhardt at the West German Cancer Center in Essen, he focused 
+      on the functional characterization of novel tumor suppressors and oncogenes in diffuse large B-cell lymphoma 
+      (DLBCL) and participated in the West German Lymphoma Symposium 2024. In November 2025, he joined the 
+      Apostolova Lab, where his PhD research focuses on the role of bioactive lipids in immune evasion of 
+      acute myeloid leukemia (AML) following allogeneic hematopoietic stem cell transplantation.
+      
+      Alongside his scientific career, he is an accomplished professional guitarist. From 2016 to 2025, 
+      he held the Guitar 1 chair in Andrew Lloyd Webber's musical Starlight Express in Bochum, Germany. 
+      As a live and studio guitarist, he has performed at prestigious venues and events, including the 
+      Montreux Jazz Festival, OpenAir St. Gallen, Sony Music Studios in Berlin, and recording studios in 
+      Brooklyn, New York City.
+
+  - name: "Johannes Tossounidis"
+    title: "Dr."
+    role: "Project Leader"
+    photo: team_tossounidis
+    bio: >
+      Jannis studied Medicine at the LMU in Munich. From 2015 to 2016 he performed his MD thesis in the 
+      lab of Simon Rothenfußer in the Division of Clinical Pharmacology at the LMU University Hospital on 
+      the role of a TRIM-protein in innate antiviral immunity. Since 2020, he is doing his residency in Internal 
+      Medicine and Hematology at the University Hospital of Basel. He joined the Apostolova Lab to explore 
+      metabolic alternations in the context of AML and allogeneic stem cell transplantation.
+
+      When not in the lab, Jannis enjoys swimming, skiing, reading or visiting his family in Greece, 
+      where he can also swim, ski (yes, indeed) and read.
+    links: [{label: "LinkedIn", url: "https://www.linkedin.com/in/yannis-tossounidis-64219272/"}]
+  
+  - name: "Annic Zimmermann"
+    role: "Master Student"
+    photo:  placeholder_person #team_zimmermann
+    bio: >
+      Annic studied Molecular Biology at the University of Basel and completed her Bachelor's thesis at 
+      the Biozentrum in the Dehio group, where she investigated how human macrophages respond to 
+      uropathogenic Escherichia coli.
+
+      Having always been interested in cancer research, she developed a growing interest in immunology 
+      during her studies. This led her to join the Apostolova group for her Master's thesis, where she 
+      is investigating how acute myeloid leukaemia (AML) changes the behaviour of macrophages in the 
+      bone marrow and how these changes help cancer cells escape the immune system.
+
+      After completing her studies, she plans to return to her home canton of Valais, where she hopes 
+      to apply the knowledge and experience she gained during her time in Basel. Until then, she 
+      enjoys escaping Basel on weekends to recharge in the mountains and enjoy the peace and quiet of 
+      Valais.
+
+
+alumni:
+  - "Giuliana Dri Burkert - Bachelor Student"
+  - "Dr. Eileen Haring - Postdoc"
+  - "Darja Hessel - Master Student"
+  - "Michal Remen - Dr. Med. Graduate"
+  - "Cécile Demarez - Administrative Assistant"
+  - "Tim-Llywelyn Isaac Leonhardt - Trainee"
+  - "Eirinaios Pappas - B.Sc. Student"
+  - "Louis Schulz - M.Sc. Internship"
+  - "Jule Huber - B.Sc. Student"
+  - "Simon Herrenschmidt - Master Student Medicine"
+
+
+
+
+

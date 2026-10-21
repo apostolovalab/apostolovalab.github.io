@@ -1,0 +1,32 @@
+---
+pagetitle: "FARO Retreat 2026 | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# FARO Retreat 2026
+
+::: {.post-meta}
+Sept 22, 2026
+:::
+
+`r img_html("news_faro2026", alt = "FARO retreat 2026", class = "post-image")`
+
+It has been a pleasure for our group to co-organize the Focal Area of Research in Oncology (FARO) retreat 2026 at Weggis, together with Mattia Zampieri! 
+
+We have an amazing experimental oncology and hematology community in Basel, from target discovery and preclinical mechanistic studies all the way to implementing novel cellular immunotherapies and advancing personalized medicine.
+
+Thank you to all contributing group leaders, postdocs and students!
+
+
+```{r gallery}
+gallery(sprintf("news_faro2026_%02d", 1:7), alt = "FARO retreat 2026")
+```
+:::
+

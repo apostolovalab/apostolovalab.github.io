@@ -1,0 +1,29 @@
+---
+pagetitle: "Welcome to Jannis & Felix | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# Welcome to Jannis & Felix
+
+::: {.post-meta}
+Oct 28, 2025
+:::
+
+`r img_html("news_welcome", alt = "Welcome", class = "post-image", style = "width: 50%; display: block; margin: 0 auto 20px;")`
+
+
+We are happy to welcome two new members who join the lab on November 1st.
+
+**Dr. Johannes (Jannis) Tossounidis** is a clinician-scientist and recipient of the Alfred Gasche Fellowship. He will spend a one-year research rotation in the lab.
+
+**Felix Theiss** joins us as a PhD student, coming from the University of Bochum.
+
+Welcome to the team – we are looking forward to working with you both!
+:::

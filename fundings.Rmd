@@ -1,0 +1,19 @@
+---
+pagetitle: "Funding | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+
+::: {.center .lead-text}
+
+**We  are very grateful for the generous support of funding agencies that have enabled our research**
+
+:::
+
+```{r logos}
+funder_grid()
+```

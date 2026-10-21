@@ -1,0 +1,14 @@
+---
+pagetitle: "News | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+# News {.page-title}
+
+```{r all-news}
+news_grid()
+```

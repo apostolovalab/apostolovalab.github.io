@@ -1,0 +1,21 @@
+---
+pagetitle: "Publications | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+```{r header}
+div(class = "page-banner", img_tag("pub_header", alt = "Publications"))
+```
+
+# Publications {.page-title}
+
+<!-- The list below is generated from data/publications.yml (newest first). -->
+
+
+```{r list}
+publication_list()
+```

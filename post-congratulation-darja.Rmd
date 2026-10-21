@@ -1,0 +1,23 @@
+---
+pagetitle: "Congratulations Darja | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# Congratulations Darja
+
+::: {.post-meta}
+Jul 11, 2025
+:::
+
+`r img_html("news_darja", alt = "Congratulations", class = "post-image", style = "width: 50%; display: block; margin: 0 auto 20px;")`
+
+We congratulate **Darja**, who recently defended her master thesis on the role of metabolic pathways shaping the interaction between acute myeloid leukemia cells and immune cells. She successfully graduated from the M.Sc. program in Molecular Biology at the University of Basel. During her time in the lab, Darja established and optimized CRISPR/Cas9 nucleofection for gene editing of leukemia cells and developed flow cytometry panels for the analysis of surface expression of immune-related molecules on AML cells. We are wishing all the best for her future. 
+
+:::

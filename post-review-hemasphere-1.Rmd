@@ -1,0 +1,30 @@
+---
+pagetitle: "New Review Article | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# New Review Article
+
+::: {.post-meta}
+Sep 23, 2025
+:::
+
+`r img_html("news_hemasphere", alt = "HemaSphere Hematology Podcast", class = "post-image", style = "width: 50%; display: block; margin: 0 auto 20px;")`
+
+
+**Are you new to the metabolism field and wondering which is the most suitable technology for your next experiment?** 
+
+Petya and Eileen recently published an insightful review connecting the worlds of haematology and metabolism.  We discussed approaches to test metabolism at the genomic, transcriptomic, protein, metabolite and functional level. From NGS over mass spectrometry up to flow cytometry and Seahorse, we comment on the strengths and recent developments. We point out the applications of these techniques and their combination in haematological research and practice. 
+
+Check it out to learn more about how metabolism might change our risk stratification and therapy strategies in acute leukemia!
+
+- [Read the review](https://pubmed.ncbi.nlm.nih.gov/40390870/)
+- [Listen to the HemaSphere podcast](https://youtube.com/playlist?list=PLyu-rUfx8FadvC1sT0PFVmOTuK5_ZKpWC)
+:::

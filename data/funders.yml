@@ -1,0 +1,18 @@
+# Funding agencies (rendered by fundings.Rmd, in this order)
+# logo: key from data/images.csv ; url: optional link to the funder
+funders:
+  - {name: "European Research Council (ERC)",               logo: funder_erc,         url: "https://erc.europa.eu/homepage"}
+  - {name: "European Hematology Association",               logo: funder_eha,         url: "https://ehaweb.org"}
+  - {name: "Swiss National Science Foundation",             logo: funder_snsf,        url: "https://www.snf.ch"}
+  - {name: "University of Basel",                           logo: funder_unibas,      url: "https://www.unibas.ch/en.html"}
+  - {name: "University Hospital Basel",                     logo: funder_unispital,   url: "https://www.unispital-basel.ch/"}
+  - {name: "ISREC Foundation",                              logo: funder_isrec,       url: "https://www.isrec.ch/"}
+  - {name: "Gossweiler Foundation",                         logo: funder_jggf,        url: "https://www.jggf.ch/"}
+  - {name: "Olga Mayenfisch Foundation",                    logo: funder_mayenfisch,  url: ""}
+  - {name: "Novartis",                                      logo: funder_novartis,    url: "https://www.novartis.com/ch-de/medizin-neu-denken/forschungsfoerderung/freenovation"}
+  - {name: "Swiss Life",                                    logo: funder_swisslife,   url: "https://www.swisslife.com/en/home/sustainability/society/foundations.html"}
+  - {name: "Deutsche Forschungsgemeinschaft",               logo: funder_dfg,         url: "https://www.dfg.de"}
+  - {name: "German Cancer Consortium (DKTK)",               logo: funder_dktk,        url: "https://dktk.dkfz.de"}
+  - {name: "Berta Ottenstein Programme",                    logo: funder_ottenstein,  url: "https://uni-freiburg.de/med/forschung/qualifizierung-nach-der-promotion/bop/"}
+  - {name: "Else Kröner-Fresenius-Stiftung",                logo: funder_ekfs,        url: "https://www.ekfs.de"}
+  - {name: "Deutscher Akademischer Austauschdienst (DAAD)", logo: funder_daad,        url: "https://www.daad.de"}

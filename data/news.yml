@@ -1,0 +1,56 @@
+# ---------------------------------------------------------------------------
+# News index (used by index.Rmd [3 most recent] and news.Rmd [all]).
+# To add a post:
+#   1. copy one of the post-*.Rmd files, edit it
+#   2. add an entry here with page: <new file name>.html
+# ---------------------------------------------------------------------------
+posts:
+
+  - title: "FARO Retreat 2026"
+    date: 2026-09-22
+    page: post-faro2026.html
+    thumb: news_faro2026
+    summary: "The BCIM Lab co-organized the Focal Area of Research in Oncology (FARO) retreat 2026 at Weggis!"
+
+  - title: "ERC Starting Grant Award"
+    date: 2026-09-03
+    page: post-erc-stg.html
+    thumb: news_ercstg
+    summary: "We are excited to announce that our lab has been awarded an ERC Starting Grant!"
+
+  - title: "TANDEM Research Grant Award"
+    date: 2026-06-10
+    page: post-isrec.html
+    thumb: news_isrec
+    summary: "We are excited to announce that our lab has been awarded a TANDEM Research Grant from the ISREC Foundation!"
+
+  - title: "Welcome to Jannis & Felix"
+    date: 2025-10-28
+    page: post-welcome-to-johannes-felix.html
+    thumb: news_welcome
+    summary: "We're thrilled to welcome Dr. Johannes Tossounidis and Felix Theiss to our research team!"
+
+  - title: "New Review Article"
+    date: 2025-09-23
+    page: post-review-hemasphere-1.html
+    thumb: news_hemasphere
+    summary: "Are you new to the metabolism field and wondering which is the most suitable technology for you ? "
+
+  - title: "Stem Cell Retreat 2025"
+    date: 2025-07-11
+    page: post-solothurn-stem-cell-retreat-2025.html
+    thumb: news_stemcell2025
+    summary: "The BCIM Lab participated in the annual Stem Cell retreat 2025. "
+
+  - title: "Congratulations Darja"
+    date: 2025-07-11
+    page: post-congratulation-darja.html
+    thumb: news_darja
+    summary: "We congratulate Darja, who recently defended her master thesis!"
+
+
+
+
+
+
+

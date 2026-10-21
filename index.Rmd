@@ -1,0 +1,39 @@
+---
+pagetitle: "Home | Apostolova Lab | Blood Cancer Biology and Immunotherapy"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+<!-- ===================== Welcome banner ===================== -->
+::: {.pink-band .full-bleed}
+<h1 class="welcome">Welcome to the<br>Petya Apostolova Lab</h1>
+:::
+
+<!-- ===================== Hero image ========================= -->
+```{r hero}
+div(class = "hero", img_tag("hero", alt = "The Apostolova lab team"))
+```
+
+<!-- ===================== Mission ============================ -->
+::: {.mission-box}
+## Blood Cancer Biology and Immunotherapy
+
+The mission of our research group is to advance the understanding of blood cancer biology and contribute to improved therapy strategies. We are particularly interested in immunotherapies, such as allogeneic hematopoietic stem cell transplantation and adoptive T cell transfer. To achieve our goal, we explore how cancer and immune cell metabolism orchestrate tumor progression and the tumor-immune cell crosstalk. We believe that identifying and exploiting metabolic vulnerabilities in cancer will become a powerful therapeutic approach. Furthermore, we leverage (patho-)physiological metabolic processes to improve the safety of tumor immunotherapies.
+
+We are currently located at the Department of Biomedicine and the Division of Hematology of the University Hospital Basel and University of Basel, Switzerland. We are an international and interdisciplinary team uniting physicians and life scientists with diverse backgrounds. Besides cutting-edge research, we are committed to creating a stimulating and supportive environment for training and professional growth.
+:::
+
+<!-- ===================== News =============================== -->
+::: {.pink-band .pink-band-thin .full-bleed}
+:::
+
+```{r news}
+tagList(
+  section_label("News"),
+  news_grid(n = 3),
+  div(class = "center", a(class = "btn-outline", href = "news.html", "All news"))
+)
+```

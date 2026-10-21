@@ -1,0 +1,28 @@
+---
+pagetitle: "Stem Cell Retreat 2025 | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# Stem Cell Retreat 2025
+
+::: {.post-meta}
+Jul 11, 2025
+:::
+
+`r img_html("news_stemcell2025", alt = "Solothurn", class = "post-image")`
+
+At the end of June, the BCIM lab participated in the annual Stem Cell retreat, which unites groups interested in stem cell research across Switzerland since 2000. This year, Petya, Massimo, Tatjana, Jerneja and Michal presented the BCIM research. Together with groups from EPFL, Uni Lausanne, and ETH they spent 3 days in sunny (and very hot) Solothurn. Besides science, there was time for a swim in the Aar river of Solothurn, a city tour and drinks. 
+
+
+```{r gallery}
+gallery(sprintf("news_stemcell2025_%02d", 2:9), alt = "Stem cell retreat 2025")
+```
+:::
+

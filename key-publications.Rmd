@@ -1,0 +1,12 @@
+---
+pagetitle: "Key publications | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+```{r cards}
+key_pub_cards()
+```

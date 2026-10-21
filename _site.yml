@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# R Markdown website configuration (rmarkdown::render_site)
+# Rendered HTML goes to docs/, which GitHub Pages serves.
+# Navigation bar: see _navbar.html
+# ---------------------------------------------------------------------------
+name: "apostolovalab"
+output_dir: "docs"
+
+# Folders/files NOT copied into docs/ (sources, data, helper code)
+exclude:
+  - "README.md"
+  - "build.R"
+  - "R"
+  - "data"
+  - "scripts"
+  - "*.Rproj"
+  - "renv"
+  - "renv.lock"
+
+output:
+  html_document:
+    theme: default          # Bootstrap 3 (needed for the navbar); restyled in assets/style.css
+    highlight: null
+    mathjax: null
+    self_contained: false
+    lib_dir: site_libs
+    css: assets/style.css
+    includes:
+      in_header: _includes/head.html
+      after_body: _includes/footer.html

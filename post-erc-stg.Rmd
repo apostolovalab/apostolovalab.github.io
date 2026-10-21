@@ -1,0 +1,29 @@
+---
+pagetitle: "ERC Starting Grant Award | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# ERC Starting Grant Award
+
+::: {.post-meta}
+Sept 03, 2026
+:::
+
+`r img_html("news_ercstg", alt = "ERC Starting Grant", class = "post-image", style = "width: 80%; display: block; margin: 0 auto 20px;")`
+
+We are excited to announce that our lab has been awarded an ERC Starting Grant to lead **LIFE** - Bioactive LIpids For Targeting Leukemia Immune Evasion over the next five years. 
+
+LIFE asks how bioactive lipids - a class of signaling metabolites - help leukemia escape immune surveillance and contribute to relapse after allogeneic stem cell transplantation.
+
+- [The news on the University of Basel website](https://www.unibas.ch/en/News-Events/News/Uni-People/ERC-Starting-Grants-2026-University-of-Basel-Aposotolova-Dixon-Li-Nuijsink-Palko-Tepekule.html)
+- [ERC Starting Grant results](https://erc.europa.eu/news-events/news/erc-2026-starting-grants-results)
+
+
+:::

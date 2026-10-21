@@ -1,0 +1,59 @@
+---
+pagetitle: "Find & Contact Us | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+lab_email <- "petya.apostolova@unibas.ch"
+
+# ---- Map --------------------------------------------------------------------
+# Address shown on the Google map (any text Google Maps can search for works:
+# a street address, a building name, or "47.5605,7.5833" coordinates).
+map_query <- "Department of Biomedicine, Hebelstrasse 20, 4031 Basel, Switzerland"
+
+google_map <- function(query, zoom = 16) {
+  q <- utils::URLencode(query, reserved = TRUE)
+  tagList(
+    tags$iframe(class = "map",
+                src = paste0("https://www.google.com/maps?q=", q, "&z=", zoom, "&output=embed"),
+                loading = "lazy", referrerpolicy = "no-referrer-when-downgrade",
+                title = paste("Map:", query), allowfullscreen = NA),
+    p(class = "map-link",
+      a(href = paste0("https://www.google.com/maps/search/?api=1&query=", q),
+        target = "_blank", rel = "noopener", "Open in Google Maps"))
+  )
+}
+
+```
+
+
+
+::: {.contact-grid}
+::: {.contact-card}
+### Where we are
+
+University Hospital Basel<br>
+Hebelstrasse 20<br>
+4031 Basel, Switzerland
+
+
+:::
+
+::: {.contact-card}
+### Contact us
+
+
+```{r mail}
+a(class = "btn-solid", href = paste0("mailto:", lab_email,
+                                     "?subject=Inquiry%20via%20apostolovalab%20website"),
+  "Write to us")
+```
+
+<p class="muted">`r lab_email`</p>
+:::
+:::
+
+```{r map}
+google_map(map_query)
+```

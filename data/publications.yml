@@ -1,0 +1,334 @@
+# ---------------------------------------------------------------------------
+# Full publication list (rendered by publications.Rmd, grouped by year,
+# newest first). "Apostolova P" / "Chernogorova P" are bolded automatically.
+#   authors   : full author list (not cropped)
+#   note      : optional footnote line (e.g. "*equal contribution")
+#   url       : link on the (underlined) title -- PubMed by default
+#   read_more : optional; image key of the matching entry in
+#               data/key_publications.yml -> adds a "Read more..." link
+# ---------------------------------------------------------------------------
+publications:
+  # 2026 ---------------------------------------------------------------------
+  - year: 2026
+    title: "Sulfur partitioning from cysteine controls T cell proliferation and effector function"
+    authors: "Kelly B, Cha M, Gremelspacher T, Martin JL, Andreis M, Maloo I, Carrizo GE, Gidley M, Stanczak MA, Apostolova P, Longo J, DeCamp LM, Ma EH, Sheldon RD, Jones RG, Sanin DE, Majumdar A, Pearce EL"
+    journal: "Cell"
+    date: "June 11, 2026"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41923640/"
+  - year: 2026
+    title: "Androgen receptor drives polyamine synthesis, creating a vulnerability for prostate cancer."
+    authors: "Kumar R, Jonnatan S, Sanin DE, Vakkala V, Kadam A, Kumar S, Rosen DM, Dalrymple SL, Zhao L, Foley JR, Holbert CE, Nwafor A, Kittane S, Penner E, Apostolova P, Warner S, Dang CV, Toska E, Thompson EA, Isaacs JT, De Marzo AM, Brennen WN, Pearce EL, Stewart TM, Casero RA Jr, Denmeade SR, Sena LA"
+    journal: "Cancer Res"
+    date: "March 2, 2026"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41270152/"
+  - year: 2026
+    title: "Menin inhibition enhances graft-versus-leukemia effects by T-cell activation and endogenous retrovirus induction in AML "
+    authors: "Fetsch V, Schwöbel L, Ozyerli-Goknar E, Stell AV, Punta M, Plenge T, Klaus T, Gupta MK, Andrieux G, Shoumariyeh K, Pfeiffer S, Corrales E, Schlenke L, Baniadam H, Brandl SM, Andreis M, Remen M, Hartmann A, Grueter K, Zwick M, Köhler N, Kuban M, Metzger E, Rummelt C, Duyster J, Boerries M, Hofmann M, Färber J, Braun LM, Zähringer A, Lübbert M, Toffalori C, Vago L, Heidel FH, Minguet S, Apostolova P, Feuchtinger T, Maas-Bauer K, Blaeschke F, Kühn MWM, Timmers HTM, Wertheimer T, Perner F, Zeiser R"
+    journal: "Blood"
+    date: "January 29, 2026"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41144759/"
+  - year: 2026
+    title: " Vertical RAS pathway inhibition in pancreatic cancer drives therapeutically exploitable mitochondrial alterations."
+    authors: "Hafner P, Keller SJ, Chen X, Alrawashdeh A, Jumaa H, Nollmann FI, Besson S, Kemming J, Gorka O, Das T, Appiah B, Lehmann A, Li M, Apostolova P, Bengsch B, Zeiser R, Tholen S, Schilling O, Groß O, Vlachos A, Wittel UA, von Elverfeldt D, Reichardt W, Boerries M, Andrieux G, Heynen GJ, Fichtner-Feigl S, Hannibal L, Ruess DA"
+    journal: "Signal transduction and targeted therapy"
+    date: "January 16, 2026"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41545339/"
+
+  # 2025 ---------------------------------------------------------------------
+  - year: 2025
+    title: "Time for iMDSCs: off-the-shelf MDSCs to control GVHD."
+    authors: "Apostolova P"
+    journal: "Blood"
+    date: "October 23, 2025"
+    url: "https://pubmed.ncbi.nlm.nih.gov/41129180/"
+  - year: 2025
+    title: "Gut microbiota-derived TMAVA is a modulator of acute CNS-GVHD."
+    authors: "Chatterjee S, Rückert T, Martin I, Michaeli E, Buescher J, Apostolova P, Erny D, Lalioti ME, Biavasco F, Hartmann A, Runge S, Braun LM, Talvard-Balland N, Adams RC, Schmitt-Graeff A, Cook J, Wenger V, Athanassopoulos D, Hasavci D, Vallejo-Janeta AP, Blank T, Schaible P, Vinnakota JM, Zähringer A, Ganal-Vonarburg SC, Melchinger W, Pfeifer D, Köhler N, Rosshart SP, Michonneau D, Socié G, Andrieux G, Cabezas-Wallscheid N, Boerries M, Prinz M, Zeiser R."
+    journal: "J Exp Med"
+    date: "September 1, 2025"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40627379/"
+  - year: 2025
+    title: "Metabolism in hematology: Technological advances open new perspectives on disease biology and treatment."
+    authors: "Haring E, Buescher JM, Apostolova P."
+    journal: "Hemasphere"
+    date: "May 19, 2025"
+    url: "https://pubmed.ncbi.nlm.nih.gov/40390870/"
+    read_more: kp_hemasphere2025
+  - year: 2025
+    title: "Adiponectin reduces immune checkpoint inhibitor-induced inflammation without blocking anti-tumor immunity."
+    authors: "Braun LM, Giesler S, Andrieux G, Riemer R, Talvard-Balland N, Duquesne S, Rückert T, Unger S, Kreutmair S, Zwick M, Follo M, Hartmann A, Osswald N, Melchinger W, Chapman S, Hutchinson JA, Haferkamp S, Torster L, Kött J, Gebhardt C, Hellwig D, Karantzelis N, Wallrabenstein T, Lowinus T, Yücel M, Brehm N, Rawluk J, Pfeifer D, Bronsert P, Rogg M, Mattern S, Heikenwälder M, Fusco S, Malek NP, Singer S, Schmitt-Graeff A, Ceteci F, Greten FR, Blazar BR, Boerries M, Köhler N, Duyster J, Ihorst G, Lassmann S, Keye P, Minguet S, Schadendorf D, Ugurel S, Rafei-Shamsabadi D, Thimme R, Hasselblatt P, Bengsch B, Schell C, Pearce EL, Meiss F, Becher B, Funke-Lorenz C, Placke JM, Apostolova P*, Zeiser R*."
+    note: "*co-senior and co-corresponding authors"
+    journal: "Cancer Cell"
+    date: "February 10, 2025"
+    url: "https://pubmed.ncbi.nlm.nih.gov/39933899/"
+    read_more: kp_cancercell2025
+
+  # 2024 ---------------------------------------------------------------------
+  - year: 2024
+    title: "Activation of Cell-Intrinsic Signaling in CAR-T Cells via a Chimeric IL7R Domain."
+    authors: "Vorri SC, Holl NJ, Leeming M, Apostolova P, Marple A, Ravich JW, Canbaz A, Rahnama R, Choe J, Modi A, Fearnow AD, Walsh STR, Pearce EL, Varadhan R, Bonifant CL."
+    journal: "Cancer Res Commun"
+    date: "September 1, 2024"
+    url: "https://pubmed.ncbi.nlm.nih.gov/39186002/"
+  - year: 2024
+    title: "GVHD: bile duct stem cells under attack."
+    authors: "Apostolova P."
+    journal: "Blood"
+    date: "August 22, 2024"
+    url: "https://pubmed.ncbi.nlm.nih.gov/39172441/"
+  - year: 2024
+    title: "Oncogene-induced TIM-3 ligand expression dictates susceptibility to anti-TIM-3 therapy in mice."
+    authors: "Talvard-Balland N, Braun LM, Dixon KO, Zwick M, Engel H, Hartmann A, Duquesne S, Penter L, Andrieux G, Rindlisbacher L, Acerbis A, Ehmann J, Köllerer C, Ansuinelli M, Rettig A, Moschallski K, Apostolova P, Brummer T, Illert AL, Schramm MA, Cheng Y, Köttgen A, Duyster J, Menssen HD, Ritz J, Blazar BR, Boerries M, Schmitt-Gräff A, Sariipek N, Van Galen P, Buescher JM, Cabezas-Wallscheid N, Pahl HL, Pearce EL, Soiffer RJ, Wu CJ, Vago L, Becher B, Köhler N, Wertheimer T, Kuchroo VK, Zeiser R."
+    journal: "J Clin Invest"
+    date: "June 25, 2024"
+    url: "https://pubmed.ncbi.nlm.nih.gov/38916965/"
+  - year: 2024
+    title: "Metabolic instruction of the graft-versus-leukemia immunity."
+    authors: "Burk AC, Apostolova P."
+    journal: "Front Immunol"
+    date: "March 4, 2024"
+    url: "https://pubmed.ncbi.nlm.nih.gov/38500877/"
+    read_more: kp_frontimmunol2024
+  - year: 2024
+    title: "Prostaglandin E2 controls the metabolic adaptation of T cells to the intestinal microenvironment."
+    authors: "Villa M, Sanin DE, Apostolova P, Corrado M, Kabat AM, Cristinzio C, Regina A, Carrizo GE, Rana N, Stanczak MA, Baixauli F, Grzes KM, Cupovic J, Solagna F, Hackl A, Globig AM, Hässler F, Puleston DJ, Kelly B, Cabezas-Wallscheid N, Hasselblatt P, Bengsch B, Zeiser R, Sagar, Buescher JM, Pearce EJ, Pearce EL."
+    journal: "Nat Commun"
+    date: "January 11, 2024"
+    url: "https://pubmed.ncbi.nlm.nih.gov/38200005/"
+
+  # 2023 ---------------------------------------------------------------------
+  - year: 2023
+    title: "Phase II trial of hypomethylating agent combined with nivolumab for acute myeloid leukaemia relapse after allogeneic haematopoietic cell transplantation-Immune signature correlates with response"
+    authors: "Apostolova P*, Kreutmair S*, Toffalori C*, Punta M*, Unger S*, Burk AC, Wehr C, Maas-Bauer K, Melchinger W, Haring E, Hoefflin R, Shoumariyeh K, Hupfer V, Lauer EM, Duquesne S, Lowinus T, Núñez NG, Alberti C, Costa Pereira S, Merten CH, Power L, Weiss M, Böke C, Pfeifer D, Marks R, Bertz H, Wäsch R, Ihorst G, Gentner B, Duyster J, Boerries M, Andrieux G, Finke J, Becher B, Vago L, Zeiser R."
+    note: "*equal contribution"
+    journal: "Br J Haematol"
+    date: "August 4, 2023"
+    url: "https://pubmed.ncbi.nlm.nih.gov/37539479/"
+    read_more: kp_bjh2023
+  - year: 2023
+    title: "Allo-HCT: damaged T cells don't bite."
+    authors: "Apostolova P."
+    journal: "Blood"
+    date: "March 30, 2023"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36995707/"
+  - year: 2023
+    title: "Phosphoinositide acyl chain saturation drives CD8+ effector T cell signaling and function."
+    authors: "Edwards-Hicks J*, Apostolova P*, Buescher JM, Maib H, Stanczak MA, Corrado M, Klein Geltink RI, Maccari ME, Villa M, Carrizo GE, Sanin DE, Baixauli F, Kelly B, Curtis JD, Haessler F, Patterson A, Field CS, Caputa G, Kyle RL, Soballa M, Cha M, Paul H, Martin J, Grzes KM, Flachsmann L, Mitterer M, Zhao L, Winkler F, Rafei-Shamsabadi DA, Meiss F, Bengsch B, Zeiser R, Puleston DJ, O'Sullivan D, Pearce EJ, Pearce EL."
+    note: "*equal contribution"
+    journal: "Nat Immunol"
+    date: "March, 2023"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36732424/"
+    read_more: kp_natimmunol2023
+
+  # 2022 ---------------------------------------------------------------------
+  - year: 2022
+    title: "Lactic acid and lactate: revisiting the physiological roles in the tumor microenvironment."
+    authors: "Apostolova P, Pearce EL."
+    journal: "Trends Immunol"
+    date: "October 29, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/36319537/"
+    read_more: kp_trendsimmunol2022
+  - year: 2022
+    title: "Targeting MDM2 enhances antileukemia immunity after allogeneic transplantation via MHC-II and TRAIL-R1/2 upregulation."
+    authors: "Ho JNHG, Schmidt D, Lowinus T, Ryoo J, Dopfer EP, Gonzalo Núñez N, Costa-Pereira S, Toffalori C, Punta M, Fetsch V, Wertheimer T, Rittmann MC, Braun LM, Follo M, Briere C, Vinnakota JM, Langenbach M, Koppers F, Shoumariyeh K, Engel H, Rückert T, Märklin M, Holzmayer S, Illert AL, Magon F, Andrieux G, Duquesne S, Pfeifer D, Staniek J, Rizzi M, Miething C, Köhler N, Duyster J, Menssen HD, Boerries M, Buescher JM, Cabezas-Wallscheid N, Blazar BR, Apostolova P, Vago L, Pearce EL, Becher B, Zeiser R."
+    journal: "Blood"
+    date: "September 8, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35853161/"
+  - year: 2022
+    title: "Intracellular infection and immune system cues rewire adipocytes to acquire immune function."
+    authors: "Caputa G, Matsushita M, Sanin DE, Kabat AM, Edwards-Hicks J, Grzes KM, Pohlmeyer R, Stanczak MA, Castoldi A, Cupovic J, Forde AJ, Apostolova P, Seidl M, van Teijlingen Bakker N, Villa M, Baixauli F, Quintana A, Hackl A, Flachsmann L, Hässler F, Curtis JD, Patterson AE, Henneke P, Pearce EL, Pearce EJ."
+    journal: "Cell Metab"
+    date: "May 3, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35508110/"
+  - year: 2022
+    title: "Enhanced AC133-specific CAR T cell therapy induces durable remissions in mice with metastatic small cell lung cancer."
+    authors: "Taromi S, Firat E, Simonis A, Braun LM, Apostolova P, Elze M, Passlick B, Schumacher A, Lagies S, Frey A, Schmitt-Graeff A, Burger M, Schmittlutz K, Follo M, von Elverfeldt D, Zhu X, Kammerer B, Diederichs S, Duyster J, Manz MG, Niedermann G, Zeiser R."
+    journal: "Cancer Lett"
+    date: "July 10, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/35487310/"
+  - year: 2022
+    title: "Therapeutic targeting of endoplasmic reticulum stress in acute graft-versus-host disease."
+    authors: "Haring E, Andrieux G, Uhl FM, Krausz M, Proietti M, Sauer B, Esser PR, Martin SF, Pfeifer D, Schmitt-Graeff A, Duyster J, Köhler N, Grimbacher B, Boerries M, Aumann K, Zeiser R, Apostolova P."
+    journal: "Haematologica"
+    date: "July 1, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34407601/"
+    read_more: kp_haematologica2022
+  - year: 2022
+    title: "IRE1 and PERK signaling regulates inflammatory responses in a murine model of contact hypersensitivity."
+    authors: "Gendrisch F, Völkel L, Fluck M, Apostolova P, Zeiser R, Jakob T, Martin SF, Esser PR."
+    journal: "Allergy"
+    date: "March, 2022"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34314538/"
+
+  # 2021 ---------------------------------------------------------------------
+  - year: 2021
+    title: "Bile acids regulate intestinal antigen presentation and reduce graft-versus-host disease without impairing the graft-versus-leukemia effect."
+    authors: "Haring E, Uhl FM, Andrieux G, Proietti M, Bulashevska A, Sauer B, Braun LM, de Vega Gomez E, Esser PR, Martin SF, Pfeifer D, Follo M, Schmitt-Graeff A, Buescher J, Duyster J, Grimbacher B, Boerries M, Pearce EL, Zeiser R, Apostolova P."
+    journal: "Haematologica"
+    date: "August 1, 2021"
+    url: "https://pubmed.ncbi.nlm.nih.gov/32675222/"
+    read_more: kp_haematologica2021
+  - year: 2021
+    title: "Interfering With Inflammation: Heterogeneous Effects of Interferons in Graft-Versus-Host Disease of the Gastrointestinal Tract and Inflammatory Bowel Disease."
+    authors: "Haring E, Zeiser R, Apostolova P."
+    journal: "Front Immunol"
+    date: "June 24, 2021"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34249014/"
+  - year: 2021
+    title: "Fever supports CD8+ effector T cell responses by promoting mitochondrial translation."
+    authors: "O'Sullivan D, Stanczak MA, Villa M, Uhl FM, Corrado M, Klein Geltink RI, Sanin DE, Apostolova P, Rana N, Edwards-Hicks J, Grzes KM, Kabat AM, Kyle RL, Fabri M, Curtis JD, Buck MD, Patterson AE, Regina A, Field CS, Baixauli F, Puleston DJ, Pearce EJ, Zeiser R, Pearce EL."
+    journal: "Proc Natl Acad Sci USA"
+    date: "June 22, 2021"
+    url: "https://pubmed.ncbi.nlm.nih.gov/34161266/"
+  - year: 2021
+    title: "IL-33 expression in response to SARS-CoV-2 correlates with seropositivity in COVID-19 convalescent individuals."
+    authors: "Stanczak MA*, Sanin DE*, Apostolova P*, Nerz G, Lampaki D, Hofmann M, Steinmann D, Krohn-Grimberghe M, Thimme R, Mittler G, Waller CF, Pearce EJ, Pearce EL."
+    note: "*equal contribution"
+    journal: "Nat Commun"
+    date: "April 9, 2021"
+    url: "https://pubmed.ncbi.nlm.nih.gov/33837219/"
+    read_more: kp_natcommun2021
+  - year: 2021
+    title: "Ruxolitinib-ECP combination treatment for refractory severe chronic graft-versus-host disease."
+    authors: "Maas-Bauer K, Kiote-Schmidt C, Bertz H, Apostolova P, Wäsch R, Ihorst G, Finke J, Zeiser R."
+    journal: "Bone Marrow Transplant"
+    date: "April, 2021"
+    url: "https://pubmed.ncbi.nlm.nih.gov/33203951/"
+
+  # 2020 ---------------------------------------------------------------------
+  - year: 2020
+    title: "Metabolic reprogramming of donor T cells enhances graft-versus-leukemia effects in mice and humans."
+    authors: "Uhl FM, Chen S, O'Sullivan D, Edwards-Hicks J, Richter G, Haring E, Andrieux G, Halbach S, Apostolova P, Büscher J, Duquesne S, Melchinger W, Sauer B, Shoumariyeh K, Schmitt-Graeff A, Kreutz M, Lübbert M, Duyster J, Brummer T, Boerries M, Madl T, Blazar BR, Groß O, Pearce EL, Zeiser R."
+    journal: "Sci Transl Med"
+    date: "October 28, 2020"
+    url: "https://pubmed.ncbi.nlm.nih.gov/33115954/"
+  - year: 2020
+    title: "Glucagon-like peptide 2 for intestinal stem cell and Paneth cell repair during graft-versus-host disease in mice and humans."
+    authors: "Norona J, Apostolova P, Schmidt D, Ihlemann R, Reischmann N, Taylor G, Köhler N, de Heer J, Heeg S, Andrieux G, Siranosian BA, Schmitt-Graeff A, Pfeifer D, Catalano A, Frew IJ, Proietti M, Grimbacher B, Bulashevska A, Bhatt AS, Brummer T, Clauditz T, Zabelina T, Kroeger N, Blazar BR, Boerries M, Ayuk F, Zeiser R."
+    journal: "Blood"
+    date: "September 17, 2020"
+    url: "https://pubmed.ncbi.nlm.nih.gov/32542357/"
+  - year: 2020
+    title: "Metabolic conditioning of CD8+ effector T cells for adoptive cell therapy."
+    authors: "Klein Geltink RI, Edwards-Hicks J, Apostolova P, O'Sullivan D, Sanin DE, Patterson AE, Puleston DJ, Ligthart NAM, Buescher JM, Grzes KM, Kabat AM, Stanczak M, Curtis JD, Hässler F, Uhl FM, Fabri M, Zeiser R, Pearce EJ, Pearce EL."
+    journal: "Nat Metab"
+    date: "August 3, 2020"
+    url: "https://pubmed.ncbi.nlm.nih.gov/32747793/"
+  - year: 2020
+    title: "Graft-versus-host disease of the CNS is mediated by TNF upregulation in microglia."
+    authors: "Mathew NR, Vinnakota JM, Apostolova P, Erny D, Hamarsheh S, Andrieux G, Kim JS, Hanke K, Goldmann T, Chappell-Maor L, El-Khawanky N, Ihorst G, Schmidt D, Duyster J, Finke J, Blank T, Boerries M, Blazar BR, Jung S, Prinz M, Zeiser R."
+    journal: "J Clin Invest"
+    date: "March 2, 2020"
+    url: "https://pubmed.ncbi.nlm.nih.gov/31846439/"
+  - year: 2020
+    title: "Extracorporeal Photopheresis for Colitis Induced by Checkpoint-Inhibitor Therapy."
+    authors: "Apostolova P, Unger S, von Bubnoff D, Meiss F, Becher B, Zeiser R."
+    journal: "N Engl J Med"
+    date: "January 16, 2020"
+    url: "https://pubmed.ncbi.nlm.nih.gov/31940706/"
+    read_more: kp_nejm2020
+
+  # 2019 ---------------------------------------------------------------------
+  # (The old site also listed this paper under "Bone Marrow Transplant.
+  #  October, 2019" with the same PubMed ID -- kept once here.)
+  - year: 2019
+    title: "Immunization against poly-N-acetylglucosamine reduces neutrophil activation and GVHD while sparing microbial diversity."
+    authors: "Hülsdünker J, Thomas OS, Haring E, Unger S, Gonzalo Núñez N, Tugues S, Gao Z, Duquesne S, Cywes-Bentley C, Oyardi O, Kirschnek S, Schmitt-Graeff A, Pabst O, Koenecke C, Duyster J, Apostolova P, Blaser MJ, Becher B, Pier GB, Häcker G, Zeiser R."
+    journal: "Proc Natl Acad Sci USA"
+    date: "October 8, 2019"
+    url: "https://pubmed.ncbi.nlm.nih.gov/31527267/"
+  - year: 2019
+    title: "The role of checkpoint blockade after allogeneic stem cell transplantation in diseases other than Hodgkin’s Lymphoma"
+    authors: "Holderried TAW, Fraccaroli A, Schumacher M, Heine A, Brossart P, Stelljes M, Klobuch S, Kröger N, Apostolova P, Finke J, Zeiser R, Heinicke T, Bornhäuser M, von Bergwelt-Baildon M, Tischer J, Wolf D"
+    journal: "Bone marrow transplantation"
+    date: "March 4, 2019"
+    url: "https://pubmed.ncbi.nlm.nih.gov/30833743/"
+
+  # 2018 ---------------------------------------------------------------------
+  - year: 2018
+    title: "Graft-versus-host disease, but not graft-versus-leukemia immunity, is mediated by GM-CSF-licensed myeloid cells."
+    authors: "Tugues S, Amorim A, Spath S, Martin-Blondel G, Schreiner B, De Feo D, Lutz M, Guscetti F, Apostolova P, Haftmann C, Hasselblatt P, Núñez NG, Hottiger MO, van den Broek M, Manz MG, Zeiser R, Becher B."
+    journal: "Sci Transl Med"
+    date: "November 28, 2018"
+    url: "https://pubmed.ncbi.nlm.nih.gov/30487251/"
+  - year: 2018
+    title: "Oncogenic JAK2V617F causes PD-L1 expression, mediating immune escape in myeloproliferative neoplasms."
+    authors: "Prestipino A, Emhardt AJ, Aumann K, O'Sullivan D, Gorantla SP, Duquesne S, Melchinger W, Braun L, Vuckovic S, Boerries M, Busch H, Halbach S, Pennisi S, Poggio T, Apostolova P, Veratti P, Hettich M, Niedermann G, Bartholomä M, Shoumariyeh K, Jutzi JS, Wehrle J, Dierks C, Becker H, Schmitt-Graeff A, Follo M, Pfeifer D, Rohr J, Fuchs S, Ehl S, Hartl FA, Minguet S, Miething C, Heidel FH, Kröger N, Triviai I, Brummer T, Finke J, Illert AL, Ruggiero E, Bonini C, Duyster J, Pahl HL, Lane SW, Hill GR, Blazar BR, von Bubnoff N, Pearce EL, Zeiser R."
+    journal: "Sci Transl Med"
+    date: "February 21, 2018"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29467301/"
+  - year: 2018
+    title: "Sorafenib promotes graft-versus-leukemia activity in mice and humans through IL-15 production in FLT3-ITD-mutant leukemia cells."
+    authors: "Mathew NR, Baumgartner F, Braun L, O'Sullivan D, Thomas S, Waterhouse M, Müller TA, Hanke K, Taromi S, Apostolova P, Illert AL, Melchinger W, Duquesne S, Schmitt-Graeff A, Osswald L, Yan KL, Weber A, Tugues S, Spath S, Pfeifer D, Follo M, Claus R, Lübbert M, Rummelt C, Bertz H, Wäsch R, Haag J, Schmidts A, Schultheiss M, Bettinger D, Thimme R, Ullrich E, Tanriver Y, Vuong GL, Arnold R, Hemmati P, Wolf D, Ditschkowski M, Jilg C, Wilhelm K, Leiber C, Gerull S, Halter J, Lengerke C, Pabst T, Schroeder T, Kobbe G, Rösler W, Doostkam S, Meckel S, Stabla K, Metzelder SK, Halbach S, Brummer T, Hu Z, Dengjel J, Hackanson B, Schmid C, Holtick U, Scheid C, Spyridonidis A, Stölzel F, Ordemann R, Müller LP, Sicre-de-Fontbrune F, Ihorst G, Kuball J, Ehlert JE, Feger D, Wagner EM, Cahn JY, Schnell J, Kuchenbauer F, Bunjes D, Chakraverty R, Richardson S, Gill S, Kröger N, Ayuk F, Vago L, Ciceri F, Müller AM, Kondo T, Teshima T, Klaeger S, Kuster B, Kim DDH, Weisdorf D, van der Velden W, Dörfel D, Bethge W, Hilgendorf I, Hochhaus A, Andrieux G, Börries M, Busch H, Magenau J, Reddy P, Labopin M, Antin JH, Henden AS, Hill GR, Kennedy GA, Bar M, Sarma A, McLornan D, Mufti G, Oran B, Rezvani K, Shah O, Negrin RS, Nagler A, Prinz M, Burchert A, Neubauer A, Beelen D, Machensen A, von Bubnoff N, Herr W, Becher B, Socié G, Caligiuri MA, Ruggiero E, Bonini C, Häcker G, Duyster J, Finke J, Pearce EL, Blazar BR, Zeiser R."
+    journal: "Nat Med"
+    date: "February 12, 2018"
+    url: "https://pubmed.ncbi.nlm.nih.gov/29431743/"
+
+  # 2016 ---------------------------------------------------------------------
+  - year: 2016
+    title: "The Role of Purine Metabolites as DAMPs in Acute Graft-versus-Host Disease."
+    authors: "Apostolova P, Zeiser R."
+    journal: "Front Immunol"
+    date: "October 21, 2016"
+    url: "https://pubmed.ncbi.nlm.nih.gov/27818661/"
+  - year: 2016
+    title: "Matching for the nonconventional MHC-I MICA gene significantly reduces the incidence of acute and chronic GVHD."
+    authors: "Carapito R, Jung N, Kwemou M, Untrau M, Michel S, Pichot A, Giacometti G, Macquin C, Ilias W, Morlon A, Kotova I, Apostolova P, Schmitt-Graeff A, Cesbron A, Gagne K, Oudshoorn M, van der Holt B, Labalette M, Spierings E, Picard C, Loiseau P, Tamouza R, Toubert A, Parissiadis A, Dubois V, Lafarge X, Maumy-Bertrand M, Bertrand F, Vago L, Ciceri F, Paillard C, Querol S, Sierra J, Fleischhauer K, Nagler A, Labopin M, Inoko H, von dem Borne PA, Kuball J, Ota M, Katsuyama Y, Michallet M, Lioure B, Peffault de Latour R, Blaise D, Cornelissen JJ, Yakoub-Agha I, Claas F, Moreau P, Milpied N, Charron D, Mohty M, Zeiser R, Socié G, Bahram S."
+    journal: "Blood"
+    date: "October 13, 2016"
+    url: "https://pubmed.ncbi.nlm.nih.gov/27549307/"
+  - year: 2016
+    title: "The role of danger signals and ectonucleotidases in acute graft-versus-host disease."
+    authors: "Apostolova P, Zeiser R."
+    journal: "Hum Immunol"
+    date: "November, 2016"
+    url: "https://pubmed.ncbi.nlm.nih.gov/26902992/"
+  - year: 2016
+    title: "Caveolin-1 regulates TCR signal strength and regulatory T-cell differentiation into alloreactive T cells."
+    authors: "Schönle A, Hartl FA, Mentzel J, Nöltner T, Rauch KS, Prestipino A, Wohlfeil SA, Apostolova P, Hechinger AK, Melchinger W, Fehrenbach K, Guadamillas MC, Follo M, Prinz G, Ruess AK, Pfeifer D, del Pozo MA, Schmitt-Graeff A, Duyster J, Hippen KI, Blazar BR, Schachtrup K, Minguet S, Zeiser R."
+    journal: "Blood"
+    date: "April 14, 2016"
+    url: "https://pubmed.ncbi.nlm.nih.gov/26837700/"
+
+  # 2015 ---------------------------------------------------------------------
+  - year: 2015
+    title: "A Novel Function for P2Y2 in Myeloid Recipient-Derived Cells during Graft-versus-Host Disease."
+    authors: "Klämbt V, Wohlfeil SA, Schwab L, Hülsdünker J, Ayata K, Apostolova P, Schmitt-Graeff A, Dierbach H, Prinz G, Follo M, Prinz M, Idzko M, Zeiser R."
+    journal: "J Immunol"
+    date: "December 15, 2015"
+    url: "https://pubmed.ncbi.nlm.nih.gov/26538394/"
+  - year: 2015
+    title: "GVHD-associated, inflammasome-mediated loss of function in adoptively transferred myeloid-derived suppressor cells."
+    authors: "Koehn BH, Apostolova P, Haverkamp JM, Miller JS, McCullar V, Tolar J, Munn DH, Murphy WJ, Brickey WJ, Serody JS, Gabrilovich DI, Bronte V, Murray PJ, Ting JP, Zeiser R, Blazar BR."
+    journal: "Blood"
+    date: "September 24, 2015"
+    url: "https://pubmed.ncbi.nlm.nih.gov/26265697/"
+
+  # 2013 ---------------------------------------------------------------------
+  - year: 2013
+    title: "A delicate balance: CD73-generated adenosine limits the severity of graft vs. host disease but also constrains the allogeneic graft vs. tumor effect."
+    authors: "Thompson LF, Tsukamoto H, Chernogorova P (Apostolova P), Zeiser R."
+    journal: "Oncoimmunology"
+    date: "January 1, 2013"
+    url: "https://pubmed.ncbi.nlm.nih.gov/23482243/"
+
+  # 2012 ---------------------------------------------------------------------
+  - year: 2012
+    title: "Ectonucleotidases in solid organ and allogeneic hematopoietic cell transplantation."
+    authors: "Chernogorova P (Apostolova P), Zeiser R."
+    journal: "J Biomed Biotechnol"
+    date: "October 16, 2012"
+    url: "https://pubmed.ncbi.nlm.nih.gov/23125523/"
+  - year: 2012
+    title: "Deficiency of CD73/ecto-5'-nucleotidase in mice enhances acute graft-versus-host disease."
+    authors: "Tsukamoto H*, Chernogorova P* (Apostolova P), Ayata K, Gerlach UV, Rughani A, Ritchey JW, Ganesan J, Follo M, Zeiser R, Thompson LF, Idzko M."
+    note: "*equal contribution"
+    journal: "Blood"
+    date: "May 10, 2012"
+    url: "https://pubmed.ncbi.nlm.nih.gov/22262774/"
+  - year: 2012
+    title: "Thymosin β4 induces folding of the developing optic tectum in the chicken (Gallus domesticus)."
+    authors: "Wirsching HG, Kretz O, Morosan-Puopolo G, Chernogorova P (Apostolova P), Theiss C, Brand-Saberi B."
+    journal: "J Comp Neurol"
+    date: "June 1, 2012"
+    url: "https://pubmed.ncbi.nlm.nih.gov/22120963/"

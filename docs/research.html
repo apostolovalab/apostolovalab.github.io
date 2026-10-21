@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Research | Apostolova Lab</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<!-- Fonts: Heebo (headings), Nunito Sans (body, close to the original Avenir Light), Oswald (news titles) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&family=Nunito+Sans:wght@300;400;600&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<!-- Icons: Font Awesome 7 (LinkedIn, ORCID, Google Scholar, ... next to team links) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" referrerpolicy="no-referrer">
+<!-- Click-to-enlarge viewer for image galleries -->
+<script src="assets/lightbox.js" defer></script>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<meta name="description" content="Apostolova Lab - Blood Cancer Biology and Immunotherapy research group, University Hospital Basel and University of Basel.">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="assets/style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<!--
+  Site navigation (Bootstrap 3 markup, used automatically by rmarkdown::render_site).
+  To add/remove a page: edit the <li> items below. The active page is highlighted automatically.
+  The logo falls back to the old Wix-hosted file until scripts/download_images.R has been run.
+-->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-label="Toggle navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Apostolova Lab logo">      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="key-publications.html">Key publications</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="fundings.html">Funding</a></li>
+        <li><a href="openings.html">Openings</a></li>
+        <li><a href="find-contact-us.html">Find &amp; Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="tagline">
+<p>Leukemia • Cancer and Immune Cell Metabolism • Tumor Immunology •
+Allogeneic Hematopoietic Stem Cell Transplantation • Graft-versus-host
+disease • Immunotherapy</p>
+</div>
+<!-- Four illustrated tiles that jump to the sections below -->
+<div class="research-tiles">
+<a class="research-tile" href="#metabolism">
+<img src="images/research/icon-metabolism.jpg" alt="Cancer and immune cell metabolism" loading="lazy"/>
+<span>Cancer and immune cell metabolism</span>
+</a>
+<a class="research-tile" href="#gvhd">
+<img src="images/research/icon-gvhd.jpg" alt="Graft-versus-host disease" loading="lazy"/>
+<span>Graft-versus-host disease</span>
+</a>
+<a class="research-tile" href="#trials">
+<img src="images/research/icon-trials.jpg" alt="Clinical trials" loading="lazy"/>
+<span>Clinical trials</span>
+</a>
+</div>
+<!-- ======================================================================= -->
+<div id="metabolism" class="section level2">
+<h2>Cancer and immune cell metabolism</h2>
+<div class="research-row">
+<div class="research-figure">
+<p><img src="images/research/fig-metabolism.png" alt="Cancer and immune cell metabolism" loading="lazy"/></p>
+</div>
+<div class="research-text">
+<p>Cellular metabolism is a central regulator of blood and immune cell
+function. Our lab’s main focus is understanding how metabolic processes
+in tumor and immune cells shape cancer progression and the anti-tumor
+immune response. In particular, we focus on acute myeloid leukemia (AML)
+as a model disease.​</p>
+<p>Our previous work studied how T cells rewire their metabolic programs
+upon the acquisition of effector functions <a
+href="https://pubmed.ncbi.nlm.nih.gov/36732424/">(Edwards-Hicks and
+Apostolova et al. 2023)</a>. We discovered that effector CD8+ T cells
+synthesize a unique class of lipids, saturated phosphoinositides, which
+are essential to maintain proper effector function. These lipids were
+absent from naive or memory T cells, but had a critical role for the
+maintenance of the second messenger pool in rapidly proliferating
+effector CD8+ T cells. ​</p>
+<p>The current work of our group focuses on metabolism in AML. AML is a
+highly aggressive blood cancer, characterized by the clonal expansion of
+poorly differentiated myeloid cells. Allogeneic hematopoietic stem cell
+transplantation (allo-HSCT) is the only available curative treatment
+option for most patients with AML. During an allo-HSCT, a graft from a
+foreign donor is transferred to the patient. The graft enables a
+reconstitution of a healthy hematopoietic system, but also contains
+immune cells that mount a powerful immunological attack against residual
+leukemic cells (graft-versus-leukemia effect, GVL). Unfortunately,
+30-50% of allo-HSCT recipients develop an AML relapse, driven by diverse
+immune evasion mechanisms <a
+href="https://pubmed.ncbi.nlm.nih.gov/38500877/">(Burk and Apostolova
+2024)</a>. Our lab is exploring how metabolic processes regulate
+cell-intrinsic AML fitness and the tumor-immune cell crosstalk.​</p>
+</div>
+</div>
+<!-- ======================================================================= -->
+</div>
+<div id="gvhd" class="section level2">
+<h2>Graft-versus-host disease</h2>
+<div class="research-row">
+<div class="research-figure">
+<p><img src="images/research/fig-gvhd.png" alt="Graft-versus-host disease" loading="lazy"/></p>
+</div>
+<div class="research-text">
+<p>Graft-versus-host disease (GVHD) is a frequent and severe
+complication of allogeneic hematopoietic stem cell transplantation
+(allo-HSCT). After allo-HSCT, donor immune cells, transferred with the
+graft, can attack healthy epithelial tissues, such as the
+gastrointestinal tract and the liver. While new immunosuppressive
+treatments have been approved in recent years, leading to better GVHD
+prevention and control, it still remains one of the key complications of
+allo-HSCT and a major cause of morbidity.</p>
+<p>Our group has a long-standing research focus on the biology of GVHD.
+For instance, we described a physiological role of the
+ecto-5’-nucleotidase CD73 for dampening GVHD severity by generating
+adenosine which suppresses T cell responses <a
+href="https://pubmed.ncbi.nlm.nih.gov/22262774/">(Tsukamoto and
+Apostolova et al. 2012)</a>. Furthermore, we found that bile acids
+regulate intestinal immune homeostasis during GVHD <a
+href="https://pubmed.ncbi.nlm.nih.gov/32675222/">(Haring and Uhl et
+al. 2021)</a>. GVHD induction led to reduced bile acid abundance, while
+supplementation with tauroursodeoxycholic acid (TUDCA) was able to
+reverse intestinal cell death and preserve intestinal stem cells. In
+addition, we discovered a role for endoplasmic reticulum stress in the
+pathogenesis of GVHD <a
+href="https://pubmed.ncbi.nlm.nih.gov/34407601/">(Haring et
+al. 2022)</a>. GVHD development was marked by elevated ER stress and
+inhibition of the downstream signaling molecule IRE1a reduced GVHD
+severity.</p>
+<p>In our current work, we are exploring how metabolic immunomodulatory
+pathways orchestrate T cell activity during GVHD development.</p>
+</div>
+</div>
+<!-- ======================================================================= -->
+</div>
+<div id="trials" class="section level2">
+<h2>Clinical trials</h2>
+<div class="research-row">
+<div class="research-figure">
+<p><img src="images/research/fig-irae.png" alt="Immune checkpoint inhibitor induced adverse events" loading="lazy"/></p>
+</div>
+<div
+id="extracorporeal-photopheresis-for-immune-checkpoint-inhibitor-induced-adverse-events"
+class="section level4 research-text">
+<h4>Extracorporeal photopheresis for immune checkpoint inhibitor-induced
+adverse events</h4>
+<p>Immune checkpoint inhibitor (ICI) treatment has improved the outcomes
+of many cancer patients. ICIs are antibodies which block negative
+regulators of T cell activity, leading to a more efficient anti-tumor
+immune response. However, ICI are frequently associated with
+immune-related adverse events (irAE), such as colitis and hepatitis.</p>
+<p>Extracorporeal photopheresis (ECP) is a therapeutic procedure, in
+which the patient’s blood is collected in an extracorporeal device and
+the white blood cells are mixed with a photosensitizer, followed by
+exposure to UV light. This treatment has strong immunomodulatory
+effects, as evidenced by its frequent use in the treatment of
+graft-versus-host disease. Based on its activity in other forms of
+immune-mediated colitis, we hypothesized that ECP might be an efficient
+treatment for ICI-induced colitis. We first reported a single patient
+case, in which a patient with ICI-related colitis, who was treated
+long-term with several immunosuppressive drugs, was cured by ECP <a
+href="https://pubmed.ncbi.nlm.nih.gov/31940706/">(Apostolova et
+al. 2020)</a>.</p>
+<p>​Encouraged by this impressive clinical response, we performed a phase
+1b/2 clinical trial, in which n=14 patients with ICI-related colitis,
+hepatitis, and dermatitis, received ECP <a
+href="https://pubmed.ncbi.nlm.nih.gov/39933899/">(Braun et
+al. 2025)</a>. The overall response rate at 12 weeks after start of ECP
+was 92%, with 100% of patients with colitis achieving complete
+remission. Furthermore, we leveraged several preclinical models of irAE
+to discover that ECP led to phagocytosis of apoptotic leukocytes by
+intestinal macrophages, followed by the release of the anti-inflammatory
+mediator adiponectin. Elevated adiponectin levels were also found in
+patients undergoing ECP.</p>
+</div>
+</div>
+<div class="research-row">
+<div class="research-figure">
+<p><img src="images/research/fig-trials.png" alt="Clinical trials" loading="lazy"/></p>
+</div>
+<div
+id="immune-checkpoint-inhibitors-for-patients-with-aml-relapse-after-allo-hsct"
+class="section level4 research-text">
+<h4>Immune checkpoint inhibitors for patients with AML relapse after
+allo-HSCT</h4>
+<p>Allogeneic hematopoietic stem cell transplantation (allo-HSCT) is the
+only available curative treatment option for most patients with acute
+myeloid leukemia (AML). However, &gt;30% of allo-HSCT recipients develop
+an AML relapse. New efficient treatment options for AML patients with
+relapse after allo-HSCT are urgently needed. We conducted a phase 1/2
+clinical trial testing the efficacy of hypomethylating agents in
+combination with the anti-PD-1 antibody nivolumab in a cohort of n=16
+heavily pretreated patient with post-allo-HSCT AML relapse <a
+href="https://pubmed.ncbi.nlm.nih.gov/37539479/">(Apostolova, Kreutmair,
+Toffalori, Punta and Unger et al. 2023)</a>.</p>
+<p>We observed complete remission in 12.5% (n=2/16) patients and partial
+remission in another 12.5% (n=2/16) patients, resulting in an overall
+response rate of 25%. Unfortunately, the responses of 3/4 patients were
+short-lived, indicating the aggressive nature of relapsed AML. In
+correlative single cell-based analyses, we found a higher frequency of
+activated, low senescence CD8+ effector T cells in responders.</p>
+<p>Single-cell transcriptomics revealed a pro-inflammatory rewiring of
+the expression profile of T and myeloid cells in responders. Our study
+indicated that while individual patients might benefit from immune
+checkpoint inhibitor treatment, the overall efficiency remains modest,
+indicating an unmet clinical need.</p>
+</div>
+</div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>Prof. Petya Apostolova</span>
+    <span>All Rights Reserved</span>
+    <span>BCIM Lab</span>
+    <span>Illustrations: Michal R&ouml;ssler</span>
+  </div>
+</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

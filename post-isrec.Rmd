@@ -1,0 +1,30 @@
+---
+pagetitle: "TANDEM Research Grant Award | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+```
+
+::: {.post}
+[&larr; All news](news.html){.back-link}
+
+# TANDEM Research Grant Award
+
+::: {.post-meta}
+Jun 10, 2026
+:::
+
+`r img_html("news_isrec", alt = "TANDEM Research Grant", class = "post-image", style = "width: 80%; display: block; margin: 0 auto 20px;")`
+
+We are excited to announce that our lab has been awarded a TANDEM Research Grant from the ISREC Foundation for experimental cancer research!
+
+We're receiving this funding for a 3-years collaboration project with Nina Cabezas-Wallscheid from the ETH Zurich, which will focus on the metabolic crosstalk between leukemic stem cells, macrophages and T cells.
+
+
+
+- [Read the news on the University of Basel website](https://biomedizin.unibas.ch/en/newsdetails/two-tandem-grants-by-the-isrec-foundation-strengthen-translational-cancer-research-at-the-dbm/)
+
+
+:::

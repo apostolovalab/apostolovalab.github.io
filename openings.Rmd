@@ -1,0 +1,29 @@
+---
+pagetitle: "Openings | Apostolova Lab"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+source("R/helpers.R")
+lab_email <- "petya.apostolova@unibas.ch"
+
+# Mailto button with a pre-filled subject line
+apply_button <- function(position) {
+  a(class = "btn-solid",
+    href = paste0("mailto:", lab_email, "?subject=",
+                  utils::URLencode(paste("Application:", position), reserved = TRUE)),
+    "Apply by email")
+}
+```
+
+# Openings {.page-title}
+
+::: {.center .lead-text}
+We welcome applications for **Master thesis** (both wet-lab and computational biology), starting in **October 2027 or later**. 
+
+We are currently recruiting a **Postdoctoral researcher** and a **Research assistant** (links to job descriptions coming soon).
+
+:::
+
+
+
