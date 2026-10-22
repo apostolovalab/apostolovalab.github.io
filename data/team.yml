@@ -38,6 +38,7 @@ members:
 
       When he’s not in the lab, Massimo enjoys spending time outdoors: running, hiking, playing football 
       and recovering with a good pizza afterwards!
+    links: [{label: "LinkedIn", url: "https://www.linkedin.com/in/massimo-andreis-6909103a2"}]
 
   - name: "Noa Chemsi Bentires-Alj"
     role: "Master Student"
@@ -53,7 +54,7 @@ members:
     links: [{label: "LinkedIn", url: "www.linkedin.com/in/noa-chemsi-bentires-alj-3359933a1"}]   
 
   - name: "Nikola Graf"
-    role: "Master Student Medicine"
+    role: "MD Student"
     photo: placeholder_person # team_graf
     bio: >
       Biography coming soon. 
