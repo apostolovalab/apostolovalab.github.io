@@ -107,7 +107,18 @@ members:
     role: "PhD Student"
     photo: placeholder_person #team_nyaburi
     bio: >
-      Biography coming soon. 
+      Diana Nyaburi is a PhD student at the University Medical Center Freiburg, working within Collaborative 
+      Research Centre CRC 1479 OncoEscape. Her research focuses on the metabolic reprogramming of macrophages 
+      in FLT3-ITD acute myeloid leukemia (AML), investigating how leukemia-associated metabolic cues influence 
+      macrophage function and contribute to immune escape. By integrating transcriptomic and metabolomic 
+      approaches, she aims to uncover the mechanisms underlying macrophage reprogramming and identify potential 
+      therapeutic targets.
+
+      Diana studied Applied Bioengineering at Jomo Kenyatta University of Agriculture and Technology in Kenya 
+      before pursuing a master’s degree in Biophysics and Quantitative Biotechnology at the University of 
+      Zaragoza, Spain, through a scholarship from the Mujeres por África Foundation. Outside the lab, she enjoys 
+      getting lost in a good book, discovering new places, exploring new interests and experiences, and catching 
+      live music whenever she can.
 
   - name: "Anthony Sonrel"
     title: "Dr."
