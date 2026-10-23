@@ -157,6 +157,8 @@ members:
       As a live and studio guitarist, he has performed at prestigious venues and events, including the 
       Montreux Jazz Festival, OpenAir St. Gallen, Sony Music Studios in Berlin, and recording studios in 
       Brooklyn, New York City.
+    links: [{label: "LinkedIn", url: "https://www.linkedin.com/in/felix-theiss-6a83ab355/"}, 
+      {label: "Google Scholar", url: "https://scholar.google.com/citations?user=ym6uyvAAAAAJ&hl=en&oi=ao"}]
 
   - name: "Johannes Tossounidis"
     title: "Dr."
