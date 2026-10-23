@@ -1,6 +1,6 @@
 # Apostolova Lab website (GitHub Pages)
 
-Static replacement for the Wix site <https://www.apostolovalab.com>, built with
+Static replacement for the Wix site, built with
 **R Markdown** (`rmarkdown::render_site`). Each page is an `.Rmd` source file;
 the rendered HTML goes to `docs/`, which GitHub Pages serves as-is.
 
@@ -42,118 +42,7 @@ to GitHub Pages (GitHub serves `team.html` at `/team` as well).
 
 ---
 
-## Step-by-step: put the website online
 
-### Step 0 – Prerequisites (once)
-
-- **R** (≥ 4.1) with **pandoc**. RStudio bundles pandoc; with Positron or plain R,
-  install pandoc (<https://pandoc.org/installing.html>) or Quarto. Check in R:
-  ```r
-  rmarkdown::pandoc_available()   # must be TRUE
-  ```
-- **git** (`git --version`) and a **GitHub account**.
-- Note: on a free GitHub plan, GitHub Pages only works for **public** repositories.
-
-### Step 1 – Copy the images from the Wix site (once, while Wix is still online)
-
-The pages currently fall back to the images hosted on Wix. To store them in the
-repository instead, run from the project folder:
-
-```bash
-Rscript scripts/download_images.R
-```
-
-This fills `images/` (≈50 files, resized to max. 1600 px) and prints a summary.
-Any failed download is listed with its URL; you can save that file manually into
-`images/<path from data/images.csv>`.
-
-### Step 2 – Build the site
-
-```bash
-Rscript build.R
-```
-
-(or open `apostolovalab-site.Rproj` in RStudio and press **Build Website**, then
-run `build.R` once so `docs/.nojekyll` is created.)
-
-Open `docs/index.html` in your browser to check the result.
-
-### Step 3 – Create the GitHub repository
-
-On GitHub: **+ → New repository**.
-
-| Repository name          | Website address                          |
-|--------------------------|------------------------------------------|
-| `<account>.github.io`    | `https://<account>.github.io/`           |
-| anything, e.g. `apostolovalab` | `https://<account>.github.io/apostolovalab/` |
-
-`<account>` can be your user or (better for a lab) a GitHub **organization**,
-e.g. `bcim-lab`. Choose **Public**, and do **not** add a README/.gitignore/licence
-(the project already has them). Click **Create repository**.
-
-### Step 4 – Push the project
-
-In a terminal, inside the project folder (replace `<account>` and `<repo>`):
-
-```bash
-git init
-git add .
-git commit -m "Initial version of the lab website"
-git branch -M main
-git remote add origin https://github.com/<account>/<repo>.git
-git push -u origin main
-```
-
-If git asks for a password, use a **personal access token**
-(GitHub → Settings → Developer settings → Personal access tokens), or log in once
-with the GitHub CLI: `gh auth login`.
-
-### Step 5 – Turn on GitHub Pages
-
-In the repository on GitHub:
-
-1. **Settings → Pages** (left sidebar).
-2. **Build and deployment → Source:** *Deploy from a branch*.
-3. **Branch:** `main`, folder **`/docs`** → **Save**.
-4. Wait 1–2 minutes. The page shows *"Your site is live at …"*; the
-   **Actions** tab shows the deployment progress.
-
-### Step 6 – Check the live site
-
-Open the address from Step 5 and click through all pages (navigation, news posts,
-mobile view). If you changed something, rebuild and push again (see *Updating*).
-
-### Step 7 (optional) – Keep the domain `apostolovalab.com`
-
-Only do this once the github.io version looks right.
-
-1. In the project folder create a file named `CNAME` containing one line:
-   ```
-   www.apostolovalab.com
-   ```
-   then run `Rscript build.R` (it copies `CNAME` into `docs/`), commit and push.
-2. GitHub → repository **Settings → Pages → Custom domain**: enter
-   `www.apostolovalab.com` → **Save**.
-3. At the domain's DNS provider (the registrar, or Wix → *Domains* if the domain
-   was bought through Wix), set:
-
-   | Type  | Host / name | Value                     |
-   |-------|-------------|---------------------------|
-   | CNAME | `www`       | `<account>.github.io`     |
-   | A     | `@`         | `185.199.108.153`         |
-   | A     | `@`         | `185.199.109.153`         |
-   | A     | `@`         | `185.199.110.153`         |
-   | A     | `@`         | `185.199.111.153`         |
-
-   Remove the old records that point to Wix. DNS changes can take up to 24 h.
-4. Back in **Settings → Pages**, tick **Enforce HTTPS** once it becomes available.
-5. Recommended: verify the domain under your GitHub account/organization
-   **Settings → Pages → Add a domain**, so nobody else can claim it.
-6. Cancel the Wix plan only after the new site is live on the domain.
-
-Reference: <https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site>
-
----
 
 ## Updating the website
 
