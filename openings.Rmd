@@ -21,7 +21,13 @@ apply_button <- function(position) {
 ::: {.center .lead-text}
 We welcome applications for **Master thesis** (both wet-lab and computational biology), starting in **October 2027 or later**. 
 
-We are currently recruiting a **Postdoctoral researcher** and a **Research assistant** (links to job descriptions coming soon).
+We are currently recruiting for the following positions:
+
+- [**Postdoctoral Position (100%) in Leukemia Immunology and Metabolism**](https://careers.unibas.ch/job/Basel-Postdoctoral-Position-%28100%29-in-Leukemia-Immunology-and-Metabolism-Hebe/1376175757/), starting 1. February 2027 or upon agreement.
+
+-  [**Research Assistant/Lab Technician Position in Blood Cancer Biology and Immunotherapy (70-100%)**](https://jobs.unibas.ch/offene-stellen/research-assistant-lab-technician-position-in-blood-cancer-biology-and-immunotherapy/ae052bac-c915-4391-86ea-ffa847ae9ba9), starting 1. February 2027 or upon agreement.
+
+If you are interested in any of these positions, please visit the respective job description webpages.
 
 :::
 

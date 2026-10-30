@@ -55,10 +55,15 @@ members:
 
   - name: "Nikola Graf"
     role: "MD Student"
-    photo: placeholder_person # team_graf
+    photo: team_graf 
+    photo_position: "center 65%"
     bio: >
-      Biography coming soon. 
-
+      Nikola is a medical student at the University of Basel. He gained his first hands-on lab experience 
+      through projects during his Matura and is now working under the supervision of Jannis. Lectures in 
+      immunology and hematology during his bachelor’s studies sparked a strong interest in the field, leading 
+      him to consider writing his master’s thesis in this area. While he finds these topics fascinating, he is 
+      keeping an open mind about where he wants to specialize long-term. Outside of medicine, Nikola is a 
+      competitive track and field athlete and enjoys staying active across a variety of sports.
 
   - name: "Tatjana Gremelspacher"
     role: "PhD Student"
